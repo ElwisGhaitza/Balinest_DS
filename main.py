@@ -17,11 +17,11 @@ st.set_page_config(
 )
 
 # Loading data frame
-rec_wisata = pickle.load(open('rec_wisata1.pkl','rb'))
+rec_wisata = pickle.load(open('rec_wisata.pkl','rb'))
 wisata = rec_wisata.index
 
 # Loading similarity file
-similarity = pickle.load(open('similarity1.pkl','rb'))
+similarity = pickle.load(open('similarity.pkl','rb'))
 
 # Main heading
 st.image("images/logobalinest.png")
