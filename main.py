@@ -3,7 +3,6 @@ import pickle # For loading model
 import streamlit as st # For web app
 import pandas as pd
 import numpy as np
-import difflib
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
